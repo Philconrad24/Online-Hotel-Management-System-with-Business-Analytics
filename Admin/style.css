@@ -1,0 +1,9 @@
+nav{
+    position: sticky;
+    top: 0;
+}
+.add-form {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 2rem;
+}

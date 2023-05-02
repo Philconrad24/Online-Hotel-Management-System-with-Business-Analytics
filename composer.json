@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mailchimp/transactional": "^1.0",
+        "phpmailer/phpmailer": "^6.8",
+        "hackdelta/mpesa": "^1.0"
+    }
+}

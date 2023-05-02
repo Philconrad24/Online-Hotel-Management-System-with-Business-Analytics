@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+/* ################################ */
+/*       reservation page           */
+/* ################################ */
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: red .7px solid; */
+}
+a:hover{
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: smaller;
+}
+.header {
+    background-image: url('../image/reserve-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1rem;
+}
+.header form {
+    display: grid;
+    place-items: center;
+    max-width: 1064px;
+    margin: 0 auto;
+}
+.form-cont {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    background-color: #fff;
+    padding: .6rem;
+    width: 100%;
+}
+.btn1 {
+    background: #C1B086;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    padding: 8px 22px;
+}
+
+@media (min-width: 948px) {
+    .form-cont {
+        flex-direction: row;
+        align-items: end;
+    }
+}
+.btn{
+    height: 2.4rem;
+    border-radius: 0 !important;
+}
+
+.rooms{
+    padding: 1rem;
+    background-color: #f3efef;
+}
+.rooms img{
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+.rooms-cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(264px, 1fr));
+    gap: 1rem;
+    max-width: 1148px;
+    margin: 0 auto;
+}
+
+.room * {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.room {
+    background-color: #fff;
+    padding: .6rem;
+}
+.room-ill {
+    height: 14rem;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+/* login container */
+.form-container-det {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url("../image/reserve-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.add-form {
+    background-color: #fff;
+    width: 32rem;
+    padding: 1rem;
+}
+
+/* booking */
+.booking {
+    padding: 1.4rem;
+    background-color: #f3efef;
+    height: 100vh;
+}
+.booking-cont {
+    max-width: 968px;
+    margin: 0 auto;
+    display: flex;
+    height: 36rem;
+    background-color: #fff;
+}
+.booking-cont img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.booking-details {
+    overflow-y: auto;
+    background-color: #fff;
+}
+.booking-meta, .book-form {
+    padding: 1.4rem;
+}
+.booking-meta {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding-bottom: 0;
+}
+.book-form {
+    padding-top: 1rem;
+}
+
+/* dashboard */
+.dash-nav {
+    border-bottom: #fff .7px solid;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding: 1rem 0;
+}
+.dash-nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+#dashboard {
+    display: flex;
+    height: 100vh;
+}
+.aside {
+    width: 16%;
+    padding: 1.4rem 0;
+    background-color: rgb(3, 7, 22);
+    color: #fff;
+}
+.aside h3 {
+    padding: 0 2rem;
+}
+.aside ul {
+    border-top: #e0d8d8 .6px solid;
+}
+.side-nav-item{
+    padding: .4rem 2.4rem;
+}
+.side-nav-item:hover {
+    background-color: #ccdef8;
+}
+main {
+    width: 90%;
+    padding: 0 1.4rem;
+    overflow-y: auto;
+}
+.jumbotron {
+    max-width: 968px;
+}
+

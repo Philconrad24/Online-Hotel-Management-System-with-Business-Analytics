@@ -1,0 +1,1 @@
+GET https://8005-41-80-114-224.eu.ngrok.io/Hotel-Management-System/Final_Project_part1/Admin/getData.php

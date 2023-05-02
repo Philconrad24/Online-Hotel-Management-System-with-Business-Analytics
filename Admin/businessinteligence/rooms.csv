@@ -1,0 +1,7 @@
+roomid,name,number,capacity,isBooked,description
+18,"Boasty shark",11,1,0,"Luxury Suite"
+19,"Green Leaf",12,5,0,"Luxury Suite"
+20,"Eighty sites",13,4,0,"Premium Suite"
+21,"Reef village",14,7,0,"Luxury Suite"
+22,"Tropical villa",15,9,0,"Family Suite"
+23,"Light view",17,3,0,"Premium Suite"
